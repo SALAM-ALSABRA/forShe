@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.2/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- head -->
+    <nav class='container-fluid text-center' >
+      <div class="row">
+          <div class="col-4 mt-1 ">
+              <strong class="label "><a href="index.html" style="color: #ff5f00;">for she</a></strong>
+              
+          </div>
+          <div class="col-4 mt-4">
+              <b class="user-name">  </b>
+              
+          </div>
+          <div class="col-4 mt-4">
+              <ul class="user-entering">
+                  <li class=""><a href="signIn.html">Sign-in  <img src="images/enter.png" style="width: 20px; height: 20px;" alt=""></a></li>
+                  <li class=""><a href="signUp.html">Sgin-up  <img src="images/add-user.png" alt="" style="width: 30px; height: 30px;"></a></li>
+              </ul>
+              <ul class="user-info">
+                  
+                  <li class="user-bag"><img src="images/bought.png" style="width: 25px; height: 25px;" alt="">
+                      <span class="bought-products-counter"></span>
+                      <ol class="bought-products " >
+                         
+                      </ol>
+                  </li>
+                  <li class="user-loves"><img src="images/heartPage.png" alt="" style="width: 25px; height: 25px;"></li>
+                  <li><a href="signIn.html">Log-out &nbsp; <img src="images/logout.png" alt="" style="width: 20px; height: 20px;"></a></li>
+
+              </ul>
+          </div>
+      </div>
+  </nav>
+    <div class="card mt-3 container " >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/muslim-woman-with-shopping-cart.svg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <form class="container mt-5" class="signUp-form">
+                    <div class="row mb-3">
+                        <label for="username" class="col-sm-2 col-form-label ">Username</label>
+                        <div class="col-sm-10">
+                          <input type="text" name="username" class="form-control focus-ring " id="username" required autofocus>
+                        </div>
+                      </div>
+                    <div class="row mb-3">
+                      <label for="email" class="col-sm-2 col-form-label">Email</label>
+                      <div class="col-sm-10">
+                        <input type="email" name="email" class="form-control focus-ring" id="email" required>
+                        <div class="modal  fade" id="emailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-4 text-dark" id="exampleModalLabel">Registration information</h1>
+                                <button type="button" class="btn-close" onclick="closeModal()" data-bs-dismiss="emailModal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body fs-5">
+                                Email has this Form 'someone@something.sth'.
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" onclick="closeModal()" data-bs-dismiss="modal1">Close</button>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <label for="password" class="col-sm-2 col-form-label">Password</label>
+                      <div class="col-sm-10">
+                        <input type="password" class="form-control focus-ring" id="password" required>
+                      </div>
+                    </div>
+                    <fieldset class="row mb-3">
+                      <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                      <div class="col-sm-2">
+                        
+                        <div class="form-check">
+                            <input class="form-check-input focus-ring big-checkbox" type="radio" name="gender" id="gender1">&nbsp;
+                            <div class="modal  fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-4 text-dark" id="exampleModalLabel">Registration restrict</h1>
+                                      <button type="button" class="btn-close" onclick="closeModal()" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body fs-5">
+                                      This Shopping Site is for Womens only.
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-danger" onclick="closeModal()" data-bs-dismiss="modal">Close</button>
+                                      
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <label class="form-check-label" for="gender">
+                              Mr.
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input focus-ring big-checkbox" type="radio" name="gender" id="gender1">&nbsp;
+                            <label class="form-check-label" for="gender">
+                              Mrs.
+                            </label>
+                        </div>
+                            
+                          
+                        
+                      </div>
+                      <div class="col-sm-2">
+                        <label for="currency" class="col-form-label ms-4">Currency </label></div>
+                        <div class="col-sm-6">
+                            <select name="currency"  id="usedCurrency" class="focus-ring form-control w-100 d-inline">
+                                <option value="euro" class="big-checkbox">€ &nbsp; &nbsp;Euro</option>
+                                <option value="dollar" class="big-checkbox">$ &nbsp; &nbsp;Dollar</option>
+
+                                
+                            </select>
+                        </div>
+                        
+                      
+                    </fieldset>
+                    <div class="row mb-3">
+                        <div class="col-sm-2">
+                      <label for="password" class="col-sm-2 remove"></label>
+
+                        </div>
+                    <div class="col-sm-10">
+                    <button type="submit" class="btn w-100" id="signUp">Sign up</button>
+                    <div class="modal  fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-4 text-dark" id="exampleModalLabel">Registration information</h1>
+                            <button type="button" class="btn-close" onclick="closeModal()" data-bs-dismiss="modal1" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body fs-5">
+                            Username or Email or Password is not filled, please fill the required Information.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" onclick="closeModal()" data-bs-dismiss="modal1">Close</button>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col-sm-2">
+                        <label for="password" class="col-sm-2 remove"></label>
+
+                      </div>
+                      <div class="col-sm-10">
+                          <span class="fs-5 text-secondary">Have an Account? </span> <a href="signIn.html" class="fs-5" style="color: #FF5F00;">Sign in from here!</a>
+                    
+
+                      </div>
+                    </div>
+                  </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      
+    <script src="signUp.js"></script>
+    <script src="bootstrap-5.3.2/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-5.3.2/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5.3.2/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

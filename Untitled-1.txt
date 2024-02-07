@@ -1,0 +1,162 @@
+//    let p = `
+//       <div class="card h-100 w-200" title="${editP.counter}" id="${editP.id}">
+//       <img src="${editP.imagLocation}" class="card-img-top rounded-top" alt="...">
+        
+//       <div class="card-body">
+//         <h5 class="card-title">${editP.name}</h5>
+//         <p class="card-text text-start fs-6"><b>Color:</b> ${editP.color}</p>
+//         <p class="card-text text-start fs-6"><b>Category:</b>  ${editP.cat}</p>
+//         <p class="card-text text-start fs-6"><b>Cost:</b> ${editP.costUSD}</p>
+        
+        
+//         <button class="btn w-75" style="${editP.buttonStyle}" id="liveToastBtn" onclick="add(event)">${editP.buttonText}</button>
+//             <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+//                 <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+//                     <div class="toast-header">
+//                     <img src="images/add-to-cart.png" class="ms-auto " style="width: 20px; height: 20px;" alt="...">
+//                     <strong class="me-auto">Item Added To Cart</strong>
+                    
+//                     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+//                     </div>
+                    
+//                 </div>
+//             </div>
+//             <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+//                 <div id="liveToast1" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+//                     <div class="toast-header">
+//                     <img src="images/remove-from-cart.png" class="ms-auto " style="width: 20px; height: 20px;" alt="...">
+//                     <strong class="me-auto">Item removed from Cart</strong>
+                    
+//                     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+//                     </div>
+                    
+//                 </div>
+//             </div>
+//         <img src="${product.cardLogo}" class='' alt="" onclick="addToHeart(event)">
+
+        
+
+
+//       </div>
+//     </div>
+  
+//   `
+// zz.parentElement.innerHTML=p;
+
+
+// newLi.style.fontSize='1rem';
+        // newLi.style.fontWeight= 'normal';
+        // newLi.style.margin='1rem .5rem'
+        // newLi.style.padding='0rem 0rem 0rem 1rem'
+        // newLi.style.display='flex';
+        // newLi.style.backgroundColor='#ffffff'
+        // newLi.style.justifyContent='space-between'
+
+        // newDiv.appendChild(newI1);
+        // newDiv.appendChild(newSpan);
+        // newDiv.appendChild(newI2);
+        // newLi.appendChild(newDiv); 
+        // inCartList.appendChild(newLi);
+        // inCartList.style.width='15rem'
+        // inCartList.style.backgroundColor='#ECECEC'
+       
+        
+        
+       
+        // newSpan.innerHTML=item.boughtCardCounter;
+        // newI1.classList.add('fa-solid');
+        // newI1.classList.add('fa-plus');
+        // newI1.classList.add('icons');
+
+
+
+        <div class="carousel-item active">
+              <div class="card" style="width: 18rem; display: inline-block;">
+                  <img src="images/coats/blueCoat.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem; display: inline-block;">
+                  <img src="images/coats/blueCoat.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem; display: inline-block;">
+                  <img src="images/coats/blueCoat.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem; display: inline-block;">
+                  <img src="images/coats/blueCoat.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="width: 18rem; display: inline-block;">
+                  <img src="images/coats/blueCoat.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem; display: inline-block;">
+                  <img src="images/coats/blueCoat.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                  <img src="images/coats/blueCoat.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card" >
+                  <img src="images/coats/blueCoat.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card jgjgjjgjgj</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary"></a>
+                  </div>
+                </div>
+                
+            </div>
+
+
+
+
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
